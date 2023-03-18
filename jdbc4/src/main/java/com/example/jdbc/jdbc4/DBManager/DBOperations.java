@@ -76,7 +76,7 @@ public class DBOperations {
         int rows_affected = preparedStatement.executeUpdate();
         if(rows_affected>0)
         {
-            System.out.println("Data inserted");
+            System.out.println("Data inserted ");
         }
         else
         {
